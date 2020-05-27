@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: rgb(100, 187, 200);
+  font-family: arial;
+}
+.top{
+  color: white;
+}
+.middle{
+  text-align: center;
+  margin: 300px;
+  padding: 30px;
+  line-height: 1.5;
+
+}
+#digital{
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+#quote{
+  border: 1px solid white;
+  margin: auto;
+  width: 22%;
+  height:22%;
+  color: white;
+
+}
