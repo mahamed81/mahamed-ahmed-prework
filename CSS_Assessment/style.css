@@ -1,0 +1,27 @@
+.nav{
+  background: grey;
+  text-align: center;
+}
+.footer{
+  background: green;
+  text-align: center;
+  margin-top: 700px;
+}
+#left{
+  background: blue;
+  float: left;
+  width: 50%;
+  height: 250px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15%;
+}
+#right{
+  float: right;
+  background: red;
+  width: 25%;
+  height: 250px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15%;
+}
