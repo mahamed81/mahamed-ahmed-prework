@@ -23,8 +23,8 @@ body {
 #quote{
   border: 1px solid white;
   margin: auto;
-  width: 22%;
-  height:22%;
+  padding: 5px;
+  width: 28%;
   color: white;
 
 }
