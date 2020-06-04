@@ -1,6 +1,5 @@
 body{
   background-image: url("../images/gravel.png");
-
 }
 
 /* The portfolio section */
@@ -9,14 +8,12 @@ body{
   width: 55%;
   overflow: auto;
 }
-
 .odd{
   position: absolute;
   margin-right: 200px;
   right: 60px;
   margin-bottom: 40px;
 }
-
 .box{
   position: relative;
   display: inline-block; /* Make the width of box same as image */
@@ -25,7 +22,7 @@ body{
   position: absolute;
   margin-left: 0px;
   text-align: center;
-  top: 58%; /* Adjust this value to move the positioned div up and down */
+  top: 75%; /* Adjust this value to move the positioned div up and down */
   background: #4aaaa5;
   font-family: Arial,sans-serif;
   color: #fff;
@@ -34,15 +31,13 @@ body{
 .right-text{
   margin-left: -109px
 }
-
 .grid{
-  margin-top: 30px;
-  color: #4aaaa5;
+  margin-top: 10px;
 
+  color: #4aaaa5;
 }
 .container{
   margin-top: 15px;
-
 }
 .all{
   margin-bottom: 40px;
@@ -52,13 +47,11 @@ hr{
   margin-top: 20px;
 }
 
-
 /* The navigation section */
 .nav{
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
-
 .name{
   background-color: #4aaaa5;
   color: #fff;
@@ -88,5 +81,41 @@ h5{
 .bottom{
   background-color: #666666;
   border-top: 5px solid #4aaaa5;
+}
+
+/* Index page  */
+.first{
+  position:relative;
+  right: 180px;
+  width: 130%;
+}
+.flex{
+  margin-top: 325px;
+}
+/* Contact page */
+
+.submit{
+  background-color: #4aaaa5;
+  border: 1px solid #4aaaa5;
+  color: white;
+  padding: 5px 20px;
+}
+.contact{
+  padding-bottom: 30px;
+}
+.lex{
+  margin-top: 112px;
+}
+
+
+
+
+
+
+
+
+
+
+.hh{
 
 }
