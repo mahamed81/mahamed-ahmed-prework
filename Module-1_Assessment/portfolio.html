@@ -1,91 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
   <body>
 
-
-    <div class="container">
-      <nav class="nav">
-        <!-- this is where the name goes -->
-        <section class="name">
-          <h1>Mahamed Ahmed</h1>
-        </section>
-        <!-- the different tabs  -->
-        <section class="tabs">
-          <ul class="nav justify-content-center">
+  <!-- the navigation section of the page-->
+    <nav class="nav">
+        <div class="row">
+          <div class="col-sm name">
+            <h2>Mahamed</h2>
+          </div>
+          <ul class="nav list">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">About</a>
+            <a class="nav-link" href="index.html">About <span></span>  | </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item">
+          <li>
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-        </section>
-      </nav>
-        <!-- The portfolio section -->
-      <section class="portfolio">
-        <div class="jumbotron">
-          <header><h1>Portfolio</h1></header>
-          <hr>
-          <div class="container">
-            <!-- row one  -->
-            <div class="row">
-              <div class="col-lg">
-                One of three columns
-              </div>
-              <div class="col-lg">
-                One of three columns
-              </div>
-              <div class="col-lg ">
-
-              </div>
-            </div>
-            <!-- row two -->
-            <div class="row">
-              <div class="col-lg">
-                One of three columns
-              </div>
-              <div class="col-lg">
-                One of three columns
-              </div>
-              <div class="col-lg ">
-
-              </div>
-            </div>
-            <!-- row three -->
-            <div class="row">
-              <div class="col-lg">
-                One of three columns
-              </div>
-              <div class="col-lg">
-
-              </div>
-              <div class="col-lg ">
-
-              </div>
-            </div>
+      </div>
+    </nav>
+<!-- The main content of this page-->
+    <main class="container">
+      <header class="grid"><h3>Portfolio</h3></header>
+      <hr>
+      <div class="grid">
+        <!-- row one of the grid-->
+        <div class="row">
+          <div class="col-sm all box">
+            <img src="assets/images/1.jpeg" alt="" height="180" width="230">
+            <h3 class="text">Hangman</h3>
           </div>
-
+          <div class="col-sm all box">
+            <img src="assets/images/1.jpeg" class="odd" alt="" height="180" width="230">
+            <h3 class="text right-text">Hangman</h3>
+          </div>
         </div>
-      </section>
-    </div>
+        <!-- row two of the grid-->
+        <div class="row">
+          <div class="col-sm all box">
+            <img src="assets/images/1.jpeg"  alt="" height="180" width="230">
+            <h3 class="text">Hangman</h3>
+          </div>
+          <div class="col-sm all box">
+            <img src="assets/images/1.jpeg" class="odd" alt="" height="180" width="230">
+            <h3 class="text right-text">Hangman</h3>
+          </div>
+        </div>
+        <!-- row three of the grid-->
+        <div class="row">
+          <div class="col-sm all">
+            <img src="assets/images/1.jpeg"  alt="" height="180" width="230">
+            <h3 class="text">Hangman</h3>
+          </div>
+          <div class="col-sm all"></div>
+        </div>
+      </div>
+    </main>
+
+<!-- the footer of the page -->
+
+    <footer class="nav bottom">
+
+      <div class="footer">
+        <h6>Copyright ©</h6>
+      </div>
+
+    </footer>
+
 
   </body>
-
-
-
-
-
 </html>
