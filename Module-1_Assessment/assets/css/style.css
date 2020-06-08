@@ -1,43 +1,52 @@
 body{
-  background-image: url("../images/gravel.png");
+  /* background-image: url("../images/gravel.png"); */
+  /* background-color: green; */
 }
 
 /* The portfolio section */
 .container{
   background-color: #ffffff;
-  width: 55%;
+  width: 50%;
   overflow: auto;
+  margin-top: 25px;
 }
-.odd{
+/* .even{
   position: absolute;
   margin-right: 200px;
   right: 60px;
   margin-bottom: 40px;
-}
+} */
 .box{
   position: relative;
   display: inline-block; /* Make the width of box same as image */
     }
 .text{
-  position: absolute;
+  /* position: absolute;
   margin-left: 0px;
   text-align: center;
-  top: 75%; /* Adjust this value to move the positioned div up and down */
+  top: 75%;
   background: #4aaaa5;
   font-family: Arial,sans-serif;
   color: #fff;
-  width: 58%; /* Set the width of the positioned div */
+  width: 58%;  */
+  position: absolute;
+  background-color: red;
+  top: 55%;
+  /* padding-left: 106px; */
+  margin-left: 0px;
+  padding: 5px 36.5px;
+
+
+
 }
+
 .right-text{
   margin-left: -109px
 }
 .grid{
   margin-top: 10px;
-
+  padding-left: 30px;
   color: #4aaaa5;
-}
-.container{
-  margin-top: 15px;
 }
 .all{
   margin-bottom: 40px;
@@ -48,39 +57,53 @@ hr{
 }
 
 /* The navigation section */
-.nav{
+/* .nav{
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
+} */
+.nav-fix{
+  margin-left: 310px;
 }
 .name{
   background-color: #4aaaa5;
   color: #fff;
-  margin-left: 340px;
-  padding: 10px;
-  /* text-align: center; */
+  margin-left: 373px;
 }
 h5{
   margin-left: 60px;
 }
 .list{
-  left:50px;
-  text-align: center;
-}
-.list{
+
   border-bottom: 0;
-  margin-top: 10px;
-  margin-left: 380px;
+  margin-left: 305px;
+}
+.head{
+  margin-top: 20px;
+  right: 180px;
+}
+
+.ab{
+    margin-left: 150%;
+
+}
+.con{
+  padding-right: 350px;
+}
+.por{
+    margin-left: 80%;
 }
 
 /* the footer section*/
-.footer{
-  margin-left: 650px;
+/* .footer{
+  margin-left: 50%;
   color: #fff;
-  margin-top: 20px;
-}
+  margin-top: 30px;
+} */
 .bottom{
   background-color: #666666;
   border-top: 5px solid #4aaaa5;
+  margin-top: 340px;
+
 }
 
 /* Index page  */
@@ -104,18 +127,96 @@ h5{
   padding-bottom: 30px;
 }
 .lex{
-  margin-top: 112px;
+  margin-top: 180px;
+}
+
+.footer {
+  position: fixed;
+  right: 0%;
+  bottom: -15px;
+  width: 100%;
+  background-color: #666666;
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+  border-top: 5px solid #4aaaa5;
+}
+
+
+.foot{
+  position: fixed;
+  right: 0%;
+  bottom: 94%;
+  width: 100%;
+  background-color: #666666;
+  text-align: center;
+  color: #fff;
+
+
+}
+/* @media screen and (max-width: 1400px){
+
+  body{
+    background-color: green;
+  }
+
+    .name{
+      border: 1px solid red;
+      margin-left: 250px;
+    }
+
 }
 
 
 
+@media screen and (max-width: 768px){
 
+  #one{
+  }
 
+  #two{
+  }
+  .head{
+    color: blue;
+    width: 30%;
+  }
+  #three{
 
+  }
 
+  .container{
+    padding-left: 120px;
+    padding-right: 60%;
+    margin-top: 80px;
+  }
+  .name{
+    top: 0px;
+    right: 320px;
+    padding: 2px 17px;
 
+  }
+  .list{
 
+    margin: 3px 240px;
+      width: 60%;
+  }
+  .nav{
+    position: fixed;
+    top: 0%;;
+  }
+  .con{
+    margin-left: 120px;
+  }
+  .por{
+    margin-left: 100px;
+  }
+  .ab{
+    margin-left: 100px;
+  }
 
-.hh{
-
+  hr {
+    width: 160px;
 }
+
+
+} */
