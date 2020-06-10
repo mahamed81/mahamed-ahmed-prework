@@ -1,6 +1,6 @@
 body{
-  /* background-image: url("../images/gravel.png"); */
-  /* background-color: green; */
+  background-image: url("../images/gravel.png");
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* The portfolio section */
@@ -10,59 +10,41 @@ body{
   overflow: auto;
   margin-top: 25px;
 }
-/* .even{
-  position: absolute;
-  margin-right: 200px;
-  right: 60px;
-  margin-bottom: 40px;
-} */
-.box{
-  position: relative;
-  display: inline-block; /* Make the width of box same as image */
-    }
+.headings{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.center{
+  width: 25%;
+  margin-left: 350px;
+  }
+.inside{
+  margin-left:  20px;
+  width: 50%;
+  color: #777777;
+}
 .text{
-  /* position: absolute;
-  margin-left: 0px;
-  text-align: center;
-  top: 75%;
-  background: #4aaaa5;
-  font-family: Arial,sans-serif;
-  color: #fff;
-  width: 58%;  */
   position: absolute;
-  background-color: red;
+  background-color: #4aaaa5;
   top: 55%;
-  /* padding-left: 106px; */
   margin-left: 0px;
   padding: 5px 36.5px;
-
-
-
-}
-
-.right-text{
-  margin-left: -109px
 }
 .grid{
-  margin-top: 10px;
-  padding-left: 30px;
+  margin-top: 20px;
   color: #4aaaa5;
 }
 .all{
   margin-bottom: 40px;
 }
 hr{
-  border-bottom: 3px solid grey;
+  border-bottom: 3px solid #edebeb;
   margin-top: 20px;
 }
 
 /* The navigation section */
-/* .nav{
+.nav{
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
-} */
-.nav-fix{
-  margin-left: 310px;
 }
 .name{
   background-color: #4aaaa5;
@@ -73,61 +55,22 @@ h5{
   margin-left: 60px;
 }
 .list{
-
   border-bottom: 0;
   margin-left: 305px;
-}
-.head{
-  margin-top: 20px;
-  right: 180px;
-}
-
-.ab{
-    margin-left: 150%;
-
-}
-.con{
-  padding-right: 350px;
-}
-.por{
-    margin-left: 80%;
-}
-
-/* the footer section*/
-/* .footer{
-  margin-left: 50%;
-  color: #fff;
-  margin-top: 30px;
-} */
-.bottom{
-  background-color: #666666;
-  border-top: 5px solid #4aaaa5;
-  margin-top: 340px;
-
+  color: #777777;
 }
 
 /* Index page  */
 .first{
   position:relative;
-  right: 180px;
-  width: 130%;
+  right: 170px;
+  width: 140%;
 }
-.flex{
-  margin-top: 325px;
-}
-/* Contact page */
-
 .submit{
   background-color: #4aaaa5;
   border: 1px solid #4aaaa5;
   color: white;
   padding: 5px 20px;
-}
-.contact{
-  padding-bottom: 30px;
-}
-.lex{
-  margin-top: 180px;
 }
 
 .footer {
@@ -142,81 +85,29 @@ h5{
   border-top: 5px solid #4aaaa5;
 }
 
-
-.foot{
-  position: fixed;
-  right: 0%;
-  bottom: 94%;
-  width: 100%;
-  background-color: #666666;
-  text-align: center;
-  color: #fff;
-
-
-}
-/* @media screen and (max-width: 1400px){
-
-  body{
-    background-color: green;
-  }
-
-    .name{
-      border: 1px solid red;
-      margin-left: 250px;
-    }
-
-}
-
-
-
+/* different screen size */
 @media screen and (max-width: 768px){
 
-  #one{
-  }
-
-  #two{
-  }
-  .head{
-    color: blue;
-    width: 30%;
-  }
-  #three{
-
-  }
-
-  .container{
-    padding-left: 120px;
-    padding-right: 60%;
-    margin-top: 80px;
-  }
-  .name{
-    top: 0px;
-    right: 320px;
-    padding: 2px 17px;
-
-  }
-  .list{
-
-    margin: 3px 240px;
-      width: 60%;
-  }
-  .nav{
-    position: fixed;
-    top: 0%;;
-  }
-  .con{
-    margin-left: 120px;
-  }
-  .por{
-    margin-left: 100px;
-  }
-  .ab{
-    margin-left: 100px;
-  }
-
-  hr {
-    width: 160px;
+.first{
+  right: 0px;
+  width: 100%;
+}
+.container{
+  margin-top: 80px;
 }
 
+.name{
+  top: 0px;
+  right: 320px;
+  padding: 2px 17px;
 
-} */
+}
+.list{
+  margin: 3px 240px;
+  width: 60%;
+}
+.nav{
+  position: fixed;
+  top: 0%;;
+}
+}
