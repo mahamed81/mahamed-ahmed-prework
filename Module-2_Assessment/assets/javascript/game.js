@@ -1,9 +1,7 @@
 window.onload = function () {
-
   var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
         'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
         't', 'u', 'v', 'w', 'x', 'y', 'z'];
-
   var categories;         // Array of topics
   var chosenCategory;     // Selected catagory
   var word ;              // Selected word
@@ -33,14 +31,12 @@ window.onload = function () {
       letters.appendChild(list);
     }
   }
-
   // category
   var selectCat = function () {
     if (chosenCategory === categories[0]) {
       catagoryName.innerHTML = "The theme in this game is basketball.";
     }
   }
-
   // Create guesses ul
    result = function () {
     wordHolder = document.getElementById('hold');
@@ -56,13 +52,11 @@ window.onload = function () {
       } else {
         guess.innerHTML = "_";
       }
-
       guesses.push(guess);
       wordHolder.appendChild(correct);
       correct.appendChild(guess);
     }
   }
-
   // Show lives
    comments = function () {
     showLives.innerHTML = "You have " + lives + " lives";
@@ -75,10 +69,6 @@ window.onload = function () {
       }
     }
   }
-
-  // Hangman
-  canvas =  function(){ };
-
   // OnClick Function
    check = function () {
     list.onclick = function () {
@@ -100,4 +90,35 @@ window.onload = function () {
         comments();
       }
     }
+  }
+  // Play
+  play = function () {
+    categories = [
+        ["shoot", "rebound", "three", "two", "points", "dunk", "layup", "pass", "turnover", "catch"]];
+
+    chosenCategory = categories[Math.floor(Math.random() * categories.length)];
+    word = chosenCategory[Math.floor(Math.random() * chosenCategory.length)];
+    word = word.replace(/\s/g, "-");
+    console.log(word);
+    buttons();
+
+    guesses = [ ];
+    lives = 10;
+    counter = 0;
+    space = 0;
+    result();
+    comments();
+    selectCat();
+    canvas();
+  }
+
+  play();
+
+   // Reset
+  document.getElementById('reset').onclick = function() {
+     correct.parentNode.removeChild(correct);
+    letters.parentNode.removeChild(letters);
+    //context.clearRect(0, 0, 400, 400);
+    play();
+  }
   }

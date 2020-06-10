@@ -8,7 +8,6 @@ body {
   background-image:url("../images/imge6.jpeg");
   background-repeat: no-repeat;
    background-size:cover;
-
 }
 h1 {
   font-family: 'Amatic SC', cursive;
@@ -17,12 +16,9 @@ h1 {
   text-transform: uppercase;
   margin:5px 0;
 }
-
 p {
   font-size: 1.5em;
 }
-
-
 #alphabet li {
   float:left;
   margin: 0 10px 10px 0;
@@ -36,7 +32,6 @@ p {
   cursor:pointer;
   @include corners(5px);
   border: solid 1px $white;
-
 }
 #my-word li {
   position: relative;
@@ -46,18 +41,15 @@ p {
   padding: 0 10px;
   font-size:1.6em;
 }
-
 #buttons {
   font-size:2em;
   font-family: 'Amatic SC', cursive;
 }
-
 #mylives{
   font-size:1.6em;
   text-align:center;
   /*display:block;*/
 }
-
 button{
   /* @include corners (10px); */
   background-color: rgb(250, 100, 97);
@@ -69,3 +61,17 @@ button{
   width:180px;;
   margin: 10px;
 }
+button:hover{
+  background: rgb(250, 100, 97);
+  color: white;
+}
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+@media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
