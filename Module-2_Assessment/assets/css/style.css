@@ -1,0 +1,12 @@
+
+body {
+  background:$base-color;
+  color: black;
+  height:100%;
+  text-align:center;
+  font-size:23px;
+  background-image:url("../images/imge6.jpeg");
+  background-repeat: no-repeat;
+   background-size:cover;
+
+}
