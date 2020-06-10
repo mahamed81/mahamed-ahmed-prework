@@ -10,3 +10,62 @@ body {
    background-size:cover;
 
 }
+h1 {
+  font-family: 'Amatic SC', cursive;
+	font-size: 4.9em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin:5px 0;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  text-align: center;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background:$white;
+  color:$base-color;
+  cursor:pointer;
+  @include corners(5px);
+  border: solid 1px $white;
+
+}
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+#buttons {
+  font-size:2em;
+  font-family: 'Amatic SC', cursive;
+}
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  /*display:block;*/
+}
+
+button{
+  /* @include corners (10px); */
+  background-color: rgb(250, 100, 97);
+  color: black;
+  border: solid 1px $white;
+  border-radius: 10px;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;;
+  margin: 10px;
+}
